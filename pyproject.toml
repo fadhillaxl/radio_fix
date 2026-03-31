@@ -1,0 +1,13 @@
+[build-system]
+requires = ["setuptools>=68", "wheel", "Cython>=3.0", "numpy>=1.26"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "radio-fix-optimized-transfer"
+version = "0.1.0"
+description = "High-throughput continuous transfer architecture for PlutoSDR experiments"
+requires-python = ">=3.11"
+dependencies = ["numpy>=1.26", "PyYAML>=6.0"]
+
+[tool.setuptools]
+packages = ["optimized_transfer"]

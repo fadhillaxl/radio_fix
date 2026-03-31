@@ -1,0 +1,16 @@
+{
+  "file_name": "NearDrop.app.zip",
+  "file_size": 6680561,
+  "file_sha256": "ee6fed09714487789f605198c0415bfd097b61efa527dd21560e10af5c56a6a5",
+  "packet_count": 112,
+  "chunk_size": 60000,
+  "modulation": "qpsk",
+  "sample_rate": 12000000,
+  "carrier_offset": 2250000,
+  "tx_gain_db": -10,
+  "rx_gain_db": 35,
+  "useful_bit_rate_bps": 1177596.7718990273,
+  "raw_bit_rate_bps": 29040442.74053392,
+  "air_payload_bit_rate_bps": 15572124.973679569,
+  "seconds": 45.38437033400987
+}

@@ -1,0 +1,16 @@
+{
+  "file_name": "tcp_65536.bin",
+  "file_size": 65536,
+  "file_sha256": "b00e55214622c2955054a63ab9154b970243f2ab2165a56280e7d4d2d9d7dd6d",
+  "packet_count": 2,
+  "chunk_size": 60000,
+  "modulation": "qpsk",
+  "sample_rate": 4000000,
+  "carrier_offset": 750000,
+  "tx_gain_db": -10,
+  "rx_gain_db": 35,
+  "useful_bit_rate_bps": 514082.8977312701,
+  "raw_bit_rate_bps": 12761204.274835113,
+  "air_payload_bit_rate_bps": 5183579.846555406,
+  "seconds": 1.019851082994137
+}

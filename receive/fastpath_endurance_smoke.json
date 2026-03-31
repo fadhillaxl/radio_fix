@@ -1,0 +1,95 @@
+[
+  {
+    "result": {
+      "file_name": "NearDrop.app.zip",
+      "file_size": 6680561,
+      "scenario": "loop_cable_nominal",
+      "tx_gain_db": -10,
+      "rx_gain_db": 35,
+      "useful_bit_rate_bps": 2204533.670328362,
+      "raw_bit_rate_bps": 54360702.9167988,
+      "air_payload_bit_rate_bps": 5191303.276812714,
+      "average_frame_latency_ms": 783.846452782872,
+      "packets_sent": 102,
+      "retries": 0,
+      "seconds": 24.24299012499978,
+      "sha256": "ee6fed09714487789f605198c0415bfd097b61efa527dd21560e10af5c56a6a5",
+      "output_path": "/Users/mm/GitHub/radio_fix/receive/NearDrop.app.zip"
+    },
+    "metrics": {
+      "useful_bit_rate_bps": 2204533.670328362,
+      "raw_bit_rate_bps": 54360702.9167988,
+      "air_payload_bit_rate_bps": 5191303.276812714,
+      "average_window_latency_ms": 783.846452782872,
+      "max_window_latency_ms": 5965.640375012299,
+      "cpu_user_s": 11.346371999999999,
+      "cpu_system_s": 2.1981029999999997,
+      "max_rss_kb": 1689255936,
+      "validation_hits": 8,
+      "validation_misses": 0
+    },
+    "timestamp": 1774943805.775986
+  },
+  {
+    "result": {
+      "file_name": "NearDrop.app.zip",
+      "file_size": 6680561,
+      "scenario": "loop_cable_nominal",
+      "tx_gain_db": -10,
+      "rx_gain_db": 35,
+      "useful_bit_rate_bps": 2288578.8024404375,
+      "raw_bit_rate_bps": 56433137.79036874,
+      "air_payload_bit_rate_bps": 5191303.276812714,
+      "average_frame_latency_ms": 747.2050218253255,
+      "packets_sent": 102,
+      "retries": 0,
+      "seconds": 23.352697291004006,
+      "sha256": "ee6fed09714487789f605198c0415bfd097b61efa527dd21560e10af5c56a6a5",
+      "output_path": "/Users/mm/GitHub/radio_fix/receive/NearDrop.app.zip"
+    },
+    "metrics": {
+      "useful_bit_rate_bps": 2288578.8024404375,
+      "raw_bit_rate_bps": 56433137.79036874,
+      "air_payload_bit_rate_bps": 5191303.276812714,
+      "average_window_latency_ms": 747.2050218253255,
+      "max_window_latency_ms": 5213.376291008899,
+      "cpu_user_s": 11.155263999999999,
+      "cpu_system_s": 1.7704910000000003,
+      "max_rss_kb": 1865891840,
+      "validation_hits": 8,
+      "validation_misses": 0
+    },
+    "timestamp": 1774943830.6973839
+  },
+  {
+    "result": {
+      "file_name": "NearDrop.app.zip",
+      "file_size": 6680561,
+      "scenario": "loop_cable_nominal",
+      "tx_gain_db": -10,
+      "rx_gain_db": 35,
+      "useful_bit_rate_bps": 2310338.1362566804,
+      "raw_bit_rate_bps": 56969692.39017944,
+      "air_payload_bit_rate_bps": 5191303.276812714,
+      "average_frame_latency_ms": 737.4501033918932,
+      "packets_sent": 102,
+      "retries": 0,
+      "seconds": 23.13275583399809,
+      "sha256": "ee6fed09714487789f605198c0415bfd097b61efa527dd21560e10af5c56a6a5",
+      "output_path": "/Users/mm/GitHub/radio_fix/receive/NearDrop.app.zip"
+    },
+    "metrics": {
+      "useful_bit_rate_bps": 2310338.1362566804,
+      "raw_bit_rate_bps": 56969692.39017944,
+      "air_payload_bit_rate_bps": 5191303.276812714,
+      "average_window_latency_ms": 737.4501033918932,
+      "max_window_latency_ms": 4956.259333004709,
+      "cpu_user_s": 11.066099999999995,
+      "cpu_system_s": 1.6335769999999998,
+      "max_rss_kb": 1889533952,
+      "validation_hits": 8,
+      "validation_misses": 0
+    },
+    "timestamp": 1774943855.392986
+  }
+]

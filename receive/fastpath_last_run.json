@@ -1,0 +1,30 @@
+{
+  "result": {
+    "file_name": "input.jpg",
+    "file_size": 680646,
+    "scenario": "loop_cable_nominal",
+    "tx_gain_db": -10,
+    "rx_gain_db": 35,
+    "useful_bit_rate_bps": 942861.5601843899,
+    "raw_bit_rate_bps": 23268040.10699331,
+    "air_payload_bit_rate_bps": 5190857.508922852,
+    "average_frame_latency_ms": 5171.184166974854,
+    "packets_sent": 11,
+    "retries": 0,
+    "seconds": 5.775151124980766,
+    "sha256": "a6ba68262707eb3efbb25f8131793a8da74d6dccf15bb764372b0e15833f0770",
+    "output_path": "/Users/mm/GitHub/radio_fix/receive/input.jpg"
+  },
+  "metrics": {
+    "useful_bit_rate_bps": 942861.5601843899,
+    "raw_bit_rate_bps": 23268040.10699331,
+    "air_payload_bit_rate_bps": 5190857.508922852,
+    "average_window_latency_ms": 5171.184166974854,
+    "max_window_latency_ms": 5171.184166974854,
+    "cpu_user_s": 3.032684,
+    "cpu_system_s": 0.950058,
+    "max_rss_kb": 1714864128,
+    "validation_hits": 2,
+    "validation_misses": 0
+  }
+}

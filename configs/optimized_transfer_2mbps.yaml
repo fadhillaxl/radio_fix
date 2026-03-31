@@ -1,0 +1,33 @@
+name: optimized-transfer-2mbps
+modulation: qpsk
+sample_rate: 4000000
+center_frequency: 2400000000
+rf_bandwidth: 3000000
+carrier_offset: 750000
+tx_gain_db: -10
+rx_gain_db: 35
+target_output_dir: /Users/mm/GitHub/radio_fix/receive
+correlator:
+  backend: cython_preferred
+  fft_batch_size: 4096
+  detector_threshold: 0.72
+  overlap_samples: 512
+pipeline:
+  frame_payload_bytes: 65535
+  max_inflight_frames: 512
+  ack_interval_frames: 32
+  sender_poll_interval_s: 0.0005
+  resend_timeout_s: 0.01
+  nack_backoff_s: 0.001
+  rx_queue_depth: 2048
+  tx_queue_depth: 2048
+  receiver_processes: 1
+ack_protocol:
+  use_bitmap_ack: true
+  full_bitmap_interval: 8
+  nack_bitmap_after_fin: true
+  ack_frame_priority: 1
+throughput_target:
+  minimum_end_to_end_bps: 2000000
+  expected_air_payload_bps: 5000000
+  synthetic_payload_bytes: 16777216

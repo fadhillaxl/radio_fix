@@ -1,0 +1,19 @@
+python /Users/mm/GitHub/radio\_fix/backup/bc.py \
+--input /Users/mm/GitHub/radio\_fix/NearDrop.app.zip\
+--output-dir /Users/mm/GitHub/radio\_fix/receive \
+--modulation qpsk \
+--chunk-size 60000 \
+--window-packets 2 \
+--max-retries 20 \
+--session-retries 5 \
+--session-retry-delay 2
+
+python /Users/mm/GitHub/radio\_fix/radio\_image\_transfer.py \
+--input /Users/mm/GitHub/radio\_fix/NearDrop.app.zip \
+--output-dir /Users/mm/GitHub/radio\_fix/receive \
+--modulation qpsk \
+--chunk-size 65535 \
+--window-packets 16 \
+--max-retries 20 \
+--session-retries 5 \
+--session-retry-delay 2

@@ -1,0 +1,8 @@
+{
+  "loop_cable_nominal:usb:0.1.5:4000000:2400000000:qpsk": {
+    "tx_gain_db": -10,
+    "rx_gain_db": 35,
+    "hello_score": 72.85393274063907,
+    "updated_at": 1774943570.682554
+  }
+}

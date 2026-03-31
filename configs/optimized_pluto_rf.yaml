@@ -1,0 +1,46 @@
+pluto_rf:
+  uri: usb:0.1.5
+  sample_rate: 4000000
+  center_frequency: 2400000000
+  rf_bandwidth: 3000000
+  carrier_offset: 750000
+  rx_buffer_size: 262144
+  tx_scale: 10000.0
+  tx_channel: 0
+  rx_channel: 0
+  gain_candidates:
+    - [-25, 20]
+    - [-20, 25]
+    - [-15, 30]
+    - [-10, 35]
+    - [-8, 40]
+    - [-6, 45]
+    - [-4, 50]
+  session_retries: 5
+  session_retry_delay: 2.0
+  batch_packet_limit: 16
+  waveform_score_threshold: 3.0
+  capture_poll_delay_s: 0.01
+  warmup_buffers: 2
+  frame_payload_bytes: 60000
+  scenarios:
+    loop_cable_nominal:
+      tx_gain_db: -10
+      rx_gain_db: 35
+    low_power_path:
+      tx_gain_db: -25
+      rx_gain_db: 20
+    high_margin_path:
+      tx_gain_db: -6
+      rx_gain_db: 45
+fastpath_rf:
+  min_chunk_bytes: 65535
+  min_window_bytes: 262144
+  max_window_bytes: 1048576
+  target_latency_ms: 50.0
+  validation_interval_windows: 4
+  enable_validation_cache: true
+  cache_file: /Users/mm/GitHub/radio_fix/receive/fastpath_validation_cache.json
+  skip_fin_validation: true
+  cpu_affinity_core: 0
+  telemetry_queue_depth: 4096
